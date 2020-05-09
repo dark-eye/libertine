@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-04-17 09:23+0000\n"
+"PO-Revision-Date: 2020-05-11 14:23+0000\n"
 "Last-Translator: Federico Turbino <bisio.97@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "Il container dell'app '{application_name}' non è valido."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
@@ -75,6 +75,7 @@ msgstr "Avvia un'applicazione nativamente on in un container Libertine"
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
 msgstr ""
+"Identificatore del container quando vengono lanciate app containerizzate"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
@@ -86,17 +87,15 @@ msgstr ""
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Si deve specificare una exec line"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
 msgstr "Avvia una sessione SSH all'interno di un container Libertine lxc/lxd"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Informazioni Contenitore"
+msgstr "Identificatore container"
 
 #: ../tools/libertine-shell:45
 #, fuzzy
@@ -115,6 +114,7 @@ msgstr "Presupponi sì a ogni richiesta"
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"File di identità non trovato a '{}'. Lascia vuoto per l'opzione di default."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
@@ -123,6 +123,8 @@ msgstr "Chiave pubblica corrispondente per '{}' non trovata."
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Non esiste un file d'identità configurato o una chiave pubblica che "
+"corrisponda a '{}'."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -140,10 +142,12 @@ msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Usa sempre '{}' come file d'identità e l'username '{}' quando ci si connette "
+"a '{}'? [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Usa sempre '{}' come file d'identità quando ci si connette a '{}'?[Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
@@ -168,6 +172,8 @@ msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' è un container di '{}'. Solo i container 'lxd' o 'lxc' possono "
+"utilizzare questo strumento."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
@@ -186,6 +192,7 @@ msgstr "Impossibile rilevare l'indirizzo IP per '{}'"
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
 msgstr ""
+"Acconsenti ad aggiungere la chiave pubblica '{}' al container '{}'? [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
@@ -208,6 +215,8 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Il backend per il container '{id}' non è installato. Installa "
+"'python3-libertine-{type}' e prova di nuovo."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
@@ -217,7 +226,7 @@ msgstr "Distribuzione {distro} non valida"
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Il container id '{container_id}' è già in uso."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -225,6 +234,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"Il container id '{container_id}' non è valido. L'ID deve essere nella forma "
+"([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -242,6 +253,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"La distribuzione del container deve corrispondere alla distribuzione "
+"dell'host per i container basati su chroot. Per favore, usa '{host_distro}' "
+"o ometti l'opzione -d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
