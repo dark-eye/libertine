@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
 "PO-Revision-Date: 2020-05-11 14:23+0000\n"
-"Last-Translator: Federico Turbino <bisio.97@gmail.com>\n"
+"Last-Translator: Mattia Brambilla <m.brambilla@live.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/media mounts  attualmente non supportato in lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
@@ -367,14 +367,14 @@ msgstr ""
 "directory esistente."
 
 #: ../tools/libertine-container-manager:364
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr ""
+msgstr "Impossibile montare {mount_path}, bind-mount esiste già."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "Impossibile rimuovere il montaggio {mount_path}, bind-mount non esiste."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
@@ -387,10 +387,15 @@ msgstr ""
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
 msgstr ""
+"La configurazione del blocco è valida solo per i tipi di contenitore LXC e "
+"LXD."
 
 #: ../tools/libertine-container-manager:393
+#, fuzzy
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"Configurazione chiamata senza alcun sottocomando. Prova con configure --help "
+"per utilizzarlo."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
