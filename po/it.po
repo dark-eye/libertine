@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
 "PO-Revision-Date: 2020-05-14 16:24+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"Last-Translator: Mattia Brambilla <m.brambilla@live.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -341,7 +341,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} non eliminato correttamente."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
