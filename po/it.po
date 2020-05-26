@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-04-17 09:23+0000\n"
-"Last-Translator: Federico Turbino <bisio.97@gmail.com>\n"
+"PO-Revision-Date: 2020-05-14 16:24+0000\n"
+"Last-Translator: Mattia Brambilla <m.brambilla@live.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "Il container dell'app '{application_name}' non è valido."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
@@ -75,6 +75,7 @@ msgstr "Avvia un'applicazione nativamente on in un container Libertine"
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
 msgstr ""
+"Identificatore del container quando vengono lanciate app containerizzate"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
@@ -86,17 +87,15 @@ msgstr ""
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Si deve specificare una exec line"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
 msgstr "Avvia una sessione SSH all'interno di un container Libertine lxc/lxd"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Informazioni Contenitore"
+msgstr "Identificatore container"
 
 #: ../tools/libertine-shell:45
 #, fuzzy
@@ -115,6 +114,7 @@ msgstr "Presupponi sì a ogni richiesta"
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"File di identità non trovato a '{}'. Lascia vuoto per l'opzione di default."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
@@ -123,6 +123,8 @@ msgstr "Chiave pubblica corrispondente per '{}' non trovata."
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Non esiste un file d'identità configurato o una chiave pubblica che "
+"corrisponda a '{}'."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -140,10 +142,12 @@ msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Usa sempre '{}' come file d'identità e l'username '{}' quando ci si connette "
+"a '{}'? [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Usa sempre '{}' come file d'identità quando ci si connette a '{}'?[Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
@@ -168,6 +172,8 @@ msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' è un container di '{}'. Solo i container 'lxd' o 'lxc' possono "
+"utilizzare questo strumento."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
@@ -186,6 +192,7 @@ msgstr "Impossibile rilevare l'indirizzo IP per '{}'"
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
 msgstr ""
+"Acconsenti ad aggiungere la chiave pubblica '{}' al container '{}'? [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
@@ -208,6 +215,8 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Il backend per il container '{id}' non è installato. Installa "
+"'python3-libertine-{type}' e prova di nuovo."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
@@ -217,7 +226,7 @@ msgstr "Distribuzione {distro} non valida"
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Il container id '{container_id}' è già in uso."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -225,6 +234,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"Il container id '{container_id}' non è valido. L'ID deve essere nella forma "
+"([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -242,6 +253,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"La distribuzione del container deve corrispondere alla distribuzione "
+"dell'host per i container basati su chroot. Per favore, usa '{host_distro}' "
+"o ometti l'opzione -d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -306,15 +320,18 @@ msgid "i386 multiarch support is already {enabled_or_disabled}"
 msgstr "Il supporto per multiarch i386 è già {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
+#, fuzzy
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
+"Configure archive chiamata senza nome dell'archivio. Vedi configure --help "
+"per l'utilizzo."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} già aggiunto nel container."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
@@ -324,7 +341,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} non eliminato correttamente."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
@@ -338,12 +355,12 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
-"Impossibile montare {mounth_path}, il percorso di mount dev'essere in "
+"Impossibile montare {mount_path}, il percorso di mount dev'essere in "
 "{home_dir} o in /media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/media mounts  attualmente non supportato in lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
@@ -353,14 +370,14 @@ msgstr ""
 "directory esistente."
 
 #: ../tools/libertine-container-manager:364
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr ""
+msgstr "Impossibile montare '{mount_path}', bind-mount esiste già."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "Impossibile rimuovere il montaggio {mount_path}, bind-mount non esiste."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
@@ -373,10 +390,14 @@ msgstr ""
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
 msgstr ""
+"La configurazione del blocco è valida solo per i tipi di contenitore LXC e "
+"LXD."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"configure chiamata senza alcun sottocomando. Vedi configure --help per "
+"l'utilizzo."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
@@ -389,7 +410,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "Non eseguire '{program_name}' usando sudo"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
@@ -397,35 +418,37 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "abilita l'output di debug"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Crea un nuovo container Libertine."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
 msgstr ""
+"Identificatore del container della forma ([a-z0-9][a-z0-9+.-]+). "
+"Obbligatorio."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
-msgstr ""
+msgstr "Tipo di container Libertine da creare. 'lxd', 'lxc' o 'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
 msgstr ""
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "nome contenitore"
+msgstr "Nome container user friendly."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Forza l'installazione della distribuzione Ubuntu data anche se non è più "
+"supportata."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
@@ -455,6 +478,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
 msgstr ""
+"Identificatore container. Se omesso, verrà usato l'identificatore di default."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
@@ -477,7 +501,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Rimuovi un pacchetto nel container Libertine specificato."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
@@ -504,7 +528,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "Elenca tutti i container Libertine."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
@@ -512,21 +536,19 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "usa il formato JSON per l'output."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "Il comando da eseguire nel container specificato."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "Supporto i386 multiarchitettura"
+msgstr "Supporto multiarchitettura"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
@@ -539,34 +561,29 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Archivi aggiuntivi"
+msgstr "Supporto per archivi aggiuntivi"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Archivi e PPA addizionali"
+msgstr "Aggiungi o rimuovi archivi aggiuntivi (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
+"Aggiungi o rimuovi un archivio (PPA) nel container Libertine specificato."
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "nome contenitore"
+msgstr "Nome archivio"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "Nome dell'archivio da aggiungere o rimuovere."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "File con la chiave pubblica"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
@@ -613,16 +630,12 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Container di default"
+msgstr "Imposta container di default."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Informazioni Contenitore"
+msgstr "Identificatore container"
 
 #: ../tools/libertine-container-manager:673
 #, fuzzy
