@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-02-29 11:21+0000\n"
-"Last-Translator: dano6 <dano.kutka@gmail.com>\n"
+"PO-Revision-Date: 2020-06-02 21:24+0000\n"
+"Last-Translator: RTheren <radoslavfatura7@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "libertine/sk/>\n"
 "Language: sk\n"
@@ -69,55 +69,56 @@ msgstr "prijatý neznámy signál {signal}"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "Spustiť aplikáciu nativne alebo v Libertine kontajneri"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "Identifikátor kontajnera pri spúšťaní kontajnerových aplikácií"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Nastaviť premennú prostredia"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "spúšťací riadok"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Treba upresniť spúšťací riadok"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Spustiť SSH reláciu vo vnútri lxc/lxd Libertine kontajneri"
 
 #: ../tools/libertine-shell:43
 msgid "Container identifier"
-msgstr ""
+msgstr "Identifikátor kontajnera"
 
 #: ../tools/libertine-shell:45
 msgid "Container username"
-msgstr ""
+msgstr "Uživateľské meno kontajnera"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "SSH kľúč pre použitie"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Predpokladať áno pre všetky výzvy"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
-msgstr ""
+msgstr "Súbor Identity nenájdeny v '{}'. Nechajte prázdne pre predvolené."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "Korešpondujúci verejný kľúč nenájdený pre '{}'."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"Nastavený súbor identity alebo verejný kľúč zhodujúci sa s '{}' neexistuje."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -125,84 +126,99 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Vyzerá to, že nie sú nastavené žiadne SSH kľúče. Vygenerujte kľúč a skúste "
+"to znova. Pre vytvorenie vhodného kľúča použite nasledujúci príkaz:\n"
+" ssh-keygen -t rsa -b 4096 -C 'vas_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Pre pripojenie k '{}' vždy použiť '{}' ako súbor identity a uživateľské meno "
+"'{}'?  [Yn]"
 
 #: ../tools/libertine-shell:163
+#, fuzzy
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Pre pripojenie k '{}' vždy použiť súbor identity '{}'? [Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"Príkaz sshd nenájdený. Openssh môžete nainštalovať s nasledujúcim príkazom:\n"
+" apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' je '{}' kontajner. Iba 'lxd' alebo 'lxc' kontajnery sú schopné použiť "
+"tento nástroj."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"openssh-server nebol nájdený v kontajneri '{}'. Nainštalovať teraz? [Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Inštalácia openssh-server zlyhala"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Nepodarilo sa získať IP adresu pre '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Chcete pridať verejný kľúč '{}' do kontajnera '{}'? [Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Pre pokračovanie treba pridať verejný kľúč do kontajnera."
 
 #: ../tools/libertine-shell:248
+#, fuzzy
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Nepodarilo sa pridať verejný kľúč do kontajnera medzi overenými kľúčami."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Žiadný kontajner s identifikátorom {container_id}"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Podporná vrstva pre kontajner „{id}“ neni nainštalovaná. Nainštalujte "
+"„python3-libertine- {type}“ a skúste to znova."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Neplatná distribúcia {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Identifikátor kontajneru {container_id} sa už používa."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -210,13 +226,17 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"Identifikátor kontajnera {container_id} je neplatný. Identifikátor musí mať "
+"podobu ([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Systémové jadro nepodporuje typ kontajnera {container_type}. Použite chroot "
+"alebo vynechajte možnosť -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -225,48 +245,55 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"Distribúcia kontajnera sa musí zhodovať s distribúciou hosťa pre kontajnery "
+"založené na chroot. Použite {host_distro} alebo vynechajte -d/--distro "
+"možnosť."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
+"Zadajte heslo pre uživateľa v Libertine kontajneri, alebo nechajte prázdne a "
+"bude bez hesla:"
 
 #: ../tools/libertine-container-manager:116
 msgid "Failed to create container"
-msgstr ""
+msgstr "Tvorba kontajnera zlyhala"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Tvorba kontajnera zlyhala: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} neexistuje."
 
 #: ../tools/libertine-container-manager:175
 #, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr ""
+msgstr "Balík '{package_name}' už je nainštalovaný."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Inštalácia balíka '{package_name}' zlyhala v kontajneri '{container_id}'"
 
 #: ../tools/libertine-container-manager:220
 #, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr ""
+msgstr "Balík '{package_name}' nie je nainštalovaný."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Odstránenie balíka '{package_name}' zlyhalo v kontajneri '{container_id}'"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -274,11 +301,13 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"Hľadanie '{query_string}' v kontajneri '{container_id}' bolo ukončené s "
+"nenulovým stavom"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "Podpora i386 multiarch je už {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
