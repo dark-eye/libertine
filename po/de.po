@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
 "PO-Revision-Date: 2020-06-10 13:24+0000\n"
-"Last-Translator: Marco H <myx00r@gmail.com>\n"
+"Last-Translator: Alexander Lewandowski <bbarblexi@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr "/media mounts aktuell nicht unterstützt in lxc."
+msgstr "Einhängung von /media ist aktuell nicht unterstützt in LXC."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
