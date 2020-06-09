@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
 "PO-Revision-Date: 2020-06-09 12:20+0000\n"
-"Last-Translator: Alexander Lewandowski <bbarblexi@gmail.com>\n"
+"Last-Translator: Marco H <myx00r@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -351,12 +351,13 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/media mounts aktuell nicht unterstützt in lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Kann {mount_path} nicht einhängen, Pfad muss existierendes Verzeichnis sein."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
@@ -393,7 +394,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Klassische X Anwendung Unterstützung für Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
