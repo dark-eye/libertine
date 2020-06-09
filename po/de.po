@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-06-09 12:20+0000\n"
+"PO-Revision-Date: 2020-06-10 13:24+0000\n"
 "Last-Translator: Marco H <myx00r@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
@@ -338,7 +338,7 @@ msgid ""
 msgstr ""
 "Die \"bind-mounts\"-Konfiguration wurde ohne Angabe eines Einhängepfads "
 "aufgerufen. Verwenden Sie \"configure --help\" für weitere "
-"Verwendungshinweise."
+"Verwendungshinweise"
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -546,10 +546,8 @@ msgid "Configure various options in the specified Libertine container."
 msgstr "Diverse Optionen im angegebenen Libertine Container konfigurieren."
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "i386 Multiarch-Unterstützung"
+msgstr "Multiarch-Unterstützung"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
@@ -596,10 +594,8 @@ msgstr ""
 "wird. Nützlich für Drittpersonen oder Privatarchive."
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Zusätzliche Archive"
+msgstr "Zusätzliche bind-mounts"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
@@ -618,10 +614,8 @@ msgid "The absolute host path to bind-mount."
 msgstr ""
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Container löschen"
+msgstr "Container einfrieren Unterstützung"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
