@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-06-12 14:44+0000\n"
-"Last-Translator: Marco H <myx00r@gmail.com>\n"
+"PO-Revision-Date: 2020-06-13 15:24+0000\n"
+"Last-Translator: Alexander Lewandowski <bbarblexi@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
 "Language: de\n"
@@ -367,7 +367,7 @@ msgstr "Kann {mount_path} nicht einhängen, existiert bereits."
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr "Kann {mount_path} nicht aushängen, existiert nicht"
+msgstr "Kann {mount_path} nicht aushängen, existiert nicht."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
@@ -381,10 +381,13 @@ msgstr ""
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
 msgstr ""
+"Einfrieren der Konfiguration ist nur möglich bei LXC und LXD Containern."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"Einstellung wurde ohne Unterkommando aufgerufen. Seihe configure --help zur "
+"Nutzung."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
@@ -415,7 +418,7 @@ msgstr "Einen neuen Libertine Container erstellen."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
-msgstr ""
+msgstr "Container-kennung in der Form ([a-z0-9][a-z0-9 + .-] +). Erforderlich."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
